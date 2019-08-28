@@ -1,0 +1,282 @@
+/*General Styles*/
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #ff2f3c;
+    text-transform: uppercase;
+}
+p {
+    font-size: 14px;
+}
+.fa{
+    color: #ff2f3c;
+}
+a:hover i{
+    color:red;
+}
+/*---------------------------------*/
+/*Header Section*/
+.navbar{
+    border-bottom: 1px solid #ff2f3c;
+}
+.navbar-brand{
+    color: #ff2f3c !important;
+    font-size: 24px;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    transition:color .5s ease ;
+}
+.nav-link:hover{
+    color: #ff2f3c!important;
+    border-bottom: 1px solid #ff2f3c;
+}
+#headerSection{
+    background: url("images/kapak.jpg") no-repeat center center fixed;
+    background-size:cover;
+    height:100vh;
+}
+.btn{
+    color: rgb(38, 38, 38);
+    border-radius: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgba(255, 255, 255, 0.34);
+}
+.btn:hover{
+   background-color: #ff2f3c;
+    color:white;
+}
+#headerSection .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#headerSection .row{
+    height: 100vh;
+}
+#headerSection span{
+    color: #ff2f3c;
+}
+/*---------------------------------------*/
+/*Features Section*/
+#features .fa {
+    font-size: 40px;
+}
+.feature-top{
+    transition:color .5s ease ;
+}
+.feature-top:hover {
+    color: #ff2f3c;
+    cursor: pointer;
+}
+/*---------------------------------------*/
+/*History Section*/
+
+.buton{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+    background-color: #797979;
+    border-radius:2px;
+    position: absolute;
+    bottom: 0;
+}
+#ourHistory h2 {
+    border-left: 6px solid #ff2f3c;
+    padding-left: 30px;
+}
+#ourHistory .col-md-6 {
+    display: inline;
+}
+#ourHistory p {
+    line-height: 28px;
+}
+/*---------------------------------------*/
+/*Team Section*/
+#team .card {
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#team .card:hover {
+    opacity: 1;
+}
+#team .fa {
+    font-size: 24px;
+    margin-bottom:35px;
+}
+/*-----------------------------------------*/
+/*What We Do Section*/
+#WhatWeDo .fa{
+    font-size: 80px;
+}
+#WhatWeDo {
+    background: linear-gradient(
+    rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)),
+    url("images/liverpoolfc.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Case Study Section*/
+#caseStudy {
+    background-color:#f4f5f9;
+    line-height: 25px;
+}
+.caseArea{
+    background-color: white;
+    margin-top: 40px;
+    z-index: 100;
+    padding:40px;
+    position: relative;
+    min-height: 300px;
+}
+#caseStudy h3 {
+    font-size: 25px;
+    margin: 20px 0;
+    color: #ff2f3c;
+}
+#caseStudy .fa {
+    font-size: 40px;
+}
+/*Portfolio Section*/
+#portfolio{
+    background-color:rgba(255, 47, 60, 0.09);
+}
+#portfolio .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#portfolio .fa {
+    font-size: 24px;
+    margin-bottom:20px;
+}
+#portfolio p {
+    font-size:14px;
+    font-weight:300;
+}
+.imageContainer{
+    cursor: pointer;
+}
+.imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff2f3c;
+    transition: .5s ease;
+    opacity: 0;
+}
+.imageContainer:hover .imageOverlay{
+    opacity: .9;
+}
+.imageText{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/*Testimonials Section*/
+#testimonials{
+    background: linear-gradient(
+    rgba(0, 0, 0, .1),
+    rgba(0, 0, 0, 0.7)),
+    url(images/liverpoolstadium.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.quote{
+    margin-bottom: 30px;
+}
+.carousel-item img{
+    opacity: .5;
+}
+.blockquote-footer {
+    color: #ff2f3c;
+}
+/*Contact Section*/
+#contact{
+    background-color: rgba(255, 47, 60, 0.09);
+}
+#contact .input-group-prepend{
+    width: 48px;
+}
+#contact h4,h2{
+    color: #ff2f3c;
+}
+#contact .input-group-text{
+    background-color: #ff2f3c !important;
+}
+/*Main Footer*/
+#mainFooter{
+    color:white;
+    background-color: #ff2f3c;
+}
+#mainFooter p{
+    font-size: 15px;
+}
+.kalp{
+    position: relative;
+    font-size:50px;
+}
+/*Media Queri*/
+@media screen and (max-width: 1200px) {
+    .display-3{
+        font-size:50px;
+    }
+    #ourHistory p{
+        margin-bottom: 0;
+    }
+    #ourHistory h2{
+        margin-bottom: 5px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+
+    #ourHistory .btn{
+        position: relative;
+        margin-top:15px;
+    }
+    #ourHistory h2 {
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .display-3{
+        font-size:37px;
+    }
+    .caseArea{
+        margin-bottom: 10px;
+    }
+    .link-div{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .display-3{
+        font-size:33px;
+    }
+}
